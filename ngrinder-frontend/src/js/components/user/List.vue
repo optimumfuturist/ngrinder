@@ -252,6 +252,7 @@
 
         .table {
             margin-bottom: 7px;
+            table-layout: fixed;
         }
 
         .user-name {

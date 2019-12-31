@@ -65,9 +65,9 @@
                     <div>
                         <label v-text="i18n('perfTest.running.agentState')"></label>
                     </div>
-                    <div class="agent-state my-4">
-                        <ul v-for="(agent, name) in agentState">
-                            <li>
+                    <div class="agent-state my-3">
+                        <ul>
+                            <li v-for="(agent, name) in agentState">
                                 <div class="ellipsis">
                                     <span><b v-text="getShortenString(name)"></b></span>
                                     <span v-text="getPackageState(agent)"></span>
